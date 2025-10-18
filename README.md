@@ -52,5 +52,5 @@ It applies **machine learning algorithms** to achieve accurate and reliable dela
 
 ## 👩‍💻 Author
 **Sude Meydan**  
-A machine learning project that predicts flight delays based on historical flight, weather, and airline performance data.
+
 
