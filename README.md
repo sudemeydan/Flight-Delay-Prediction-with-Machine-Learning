@@ -1,38 +1,56 @@
-Flight_delay
-Advanced machine learning project for flight delay prediction using ensemble models, deep learning, and time series forecasting.
+# ✈️ Flight Delay Prediction with Machine Learning
 
-Flight Delay Prediction with Machine Learning
+## 🧠 Project Overview
+This project focuses on predicting **flight delays and cancellations** using real-world aviation data.  
+It applies **machine learning algorithms** to achieve accurate and reliable delay forecasts.
 
-This project focuses on predicting flight delays and cancellations using real-world aviation data.
-It applies both traditional machine learning models and advanced time series deep learning techniques to achieve high prediction accuracy.
+---
 
-Objectives
+## 🎯 Objectives
+- Predict **arrival delay (`ARR_DELAY`)** and **departure delay (`DEP_DELAY`)** with high accuracy.  
+- Classify whether a flight will be **cancelled or not**.  
+- Improve model robustness through **feature engineering**, **outlier handling**, and **hyperparameter optimization**.
 
-Predict arrival delay (arr_delay) and departure delay (dep_delay) with high accuracy.
-Classify whether a flight will be cancelled or not.
-Improve model robustness through feature engineering, outlier handling, and optimization.
-Methods & Techniques
+---
 
-Data Preprocessing
+## ⚙️ Methods & Techniques
 
-Outlier detection and cleaning
-Feature interaction and creation
-Handling imbalanced data
-Models Used
+### 🧹 Data Preprocessing
+- Outlier detection and data cleaning  
+- Feature creation and transformation  
+- Handling missing and imbalanced data  
 
-Ensemble Models: XGBoost, CatBoost, LightGBM, Random Forest
-Time Series Models: DeepAR, LSTM, TCN, TimeGPT
-Model Averaging & Stacking
-Optimization
+### 🤖 Machine Learning Models
+- Random Forest  
+- XGBoost  
+- CatBoost  
+- LightGBM  
 
-Bayesian Optimization for hyperparameter tuning
-Early stopping to prevent overfitting
-Evaluation Metrics
+### ⚡ Optimization
+- Bayesian Optimization for hyperparameter tuning  
+- Early stopping to prevent overfitting  
+- Ensemble averaging for better generalization  
 
-Regression: MAE, MSE, RMSE, R², MAPE
-Classification: Accuracy, Precision, Recall, F1-score
-Results
+---
 
-Significant improvement in both delay prediction accuracy and cancellation classification.
-Reduced RMSE–MAE gap and achieved higher F1-score for imbalanced classes.
-Sude MEYDAN
+## 📊 Evaluation Metrics
+
+**Regression Metrics:**  
+- MAE, MSE, RMSE, R², MAPE  
+
+**Classification Metrics:**  
+- Accuracy, Precision, Recall, F1-score  
+
+---
+
+## 🚀 Results
+- Achieved high accuracy in both delay prediction and cancellation classification.  
+- Reduced RMSE–MAE difference and improved model stability.  
+- Demonstrated strong generalization across different airlines and airports.  
+
+---
+
+## 👩‍💻 Author
+**Sude Meydan**  
+A machine learning project that predicts flight delays based on historical flight, weather, and airline performance data.
+
